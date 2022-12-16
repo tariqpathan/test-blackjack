@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="./blackjack.css">
+    <script src="./blackjack.js"></script>
+  </head>
+  
+  <body>
+    <div class="container text">
+      <h3><span>Dealer's Cards</span></h3>
+    </div>
+    <div class="container hand">
+      <div class="row dealer">
+        <div class="col cards"></div>
+        <div class="col total">
+          <p>Total</p>
+          <p class="total"></p>
+        </div>
+      </div>
+    </div>
+    <div class="container text">
+      <h3><span>Player's Cards</span></h3>
+    </div>
+    <div class="container hand">
+      <div class="row player">
+        <div class="col cards"></div>
+        <div class="col total">
+          <p>Total</p>
+          <p class="total"></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="button container">
+      <button id="btn-newgame">New Game</button>
+      <button class="ingame" id="btn-hit" disabled="true">Hit me!</button>
+      <button class="ingame" id="btn-stand" disabled="true">Stand</button>
+    </div>
+    <div class="container winner">
+      <h2 class="large"></h2>
+    </div>
+  </body>
+</html>

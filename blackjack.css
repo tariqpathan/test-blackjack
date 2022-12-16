@@ -1,0 +1,62 @@
+div.player {
+    background-color: lightblue;
+}
+div.row {
+    display: flex;
+    flex-direction: row;
+}
+div.col.total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+div.col.cards {
+    display: flex;
+    width: 85vw;
+    height: 25vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+}
+div.col.total {
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+}
+div.cards > img {
+    height: 95%;
+    padding: 5px 10px;
+}
+div.container.hand {
+    padding: 0 0 20px 0;
+}
+h2, h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.3rem;
+}
+div.col.total > p {
+    font-weight: bold;
+    height: 20%;
+    font-size: 1.2rem;
+    
+}
+button {
+    padding: 15px;
+    margin: 10px;
+}
+div.container.button {
+    display: flex;
+    justify-content: center;
+}
+div.container.winner {
+    padding: 20px;
+}
+h2.large {
+    font-size: 2rem;
+    
+}
